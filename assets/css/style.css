@@ -1,0 +1,21 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    background-color:lavender;
+}
+
+body, h1{
+    margin :0;
+}
+
+
+.bgc-blue{background-color:steelblue;}
+.fc-white{color:white;}
+.pos-f{position: fixed;}
+.pos-s{position:sticky;}
+.pv{padding:24px 0;}
+.t-0{top:0;}
+.b-0{bottom:0;}
+.w-1v1{width:100%}
