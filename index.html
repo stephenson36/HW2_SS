@@ -7,96 +7,122 @@
     <title>Sophia Stephenson</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
   </head>
   <body>
-    <header class="bgc-body pos-s pv">
-      <h1 class="justify inline">Sophia Stephenson</h1>
-      <nav class="justify inline">
-        <ul>
-          <li>
-            <a href="index.html#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="index.html#my-projects">My Projects</a>
-          </li>
-          <li>
-            <a href="index.html#contact-me">Contact Me</a>
-          </li>
-        </ul>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sophia Stephenson</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contents</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+          </div>
+        </div>
+      </nav>
       </nav>
     </header>
-    <main class="pv">
-      <section class="add-flex">
-        <img
-          src="./assets/images/chicago-skyline.png"
-          alt="Sophia Headshot"
-          style="width: 217px; height: 217px"
-        />
-        <article class="marg-left">
-          <h2 id="about-me">About Me</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi
-            ipsum faucibus vitae aliquet nec ullamcorper sit amet. Nunc faucibus
-            a pellentesque sit amet. Morbi tincidunt ornare massa eget egestas
-            purus viverra. Quam quisque id diam vel quam elementum pulvinar
-            etiam. Sit amet purus gravida quis blandit turpis cursus in hac. Id
-            cursus metus aliquam eleifend. Turpis egestas integer eget aliquet
-            nibh praesent tristique magna. Amet mattis vulputate enim nulla
-            aliquet. Nunc pulvinar sapien et ligula.
-          </p>
-          <br />
-          <p>
-            Nunc vel risus commodo viverra. Malesuada fames ac turpis egestas.
-            Congue nisi vitae suscipit tellus mauris a diam maecenas sed.
-            Venenatis urna cursus eget nunc scelerisque viverra. Amet volutpat
-            consequat mauris nunc congue nisi vitae suscipit. Nulla aliquet enim
-            tortor at auctor urna. Sed augue lacus viverra vitae. Neque
-            convallis a cras semper. Ultricies leo integer malesuada nunc. Massa
-            tincidunt nunc pulvinar sapien et. Ullamcorper eget nulla facilisi
-            etiam dignissim diam quis enim. Congue mauris rhoncus aenean vel
-            elit scelerisque mauris. Lacus luctus accumsan tortor posuere ac ut.
-            Odio morbi quis commodo odio. Curabitur vitae nunc sed velit
-            dignissim. Elit duis tristique sollicitudin nibh sit.
-          </p>
-        </article>
+    <main class="pv card">
+      <section class="card mb-3 marg-card pv-card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./assets/images/avatar-photo.png"
+              alt="Sophia Headshot Avatar"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <article class="col-md-8">
+            <div class="card-body">
+              <h2 id="about-me" class="card-title">About Me</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
+                mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Nunc
+                faucibus a pellentesque sit amet. Morbi tincidunt ornare massa
+                eget egestas purus viverra. Quam quisque id diam vel quam
+                elementum pulvinar etiam. Sit amet purus gravida quis blandit
+                turpis cursus in hac. Id cursus metus aliquam eleifend. Turpis
+                egestas integer eget aliquet nibh praesent tristique magna. Amet
+                mattis vulputate enim nulla aliquet. Nunc pulvinar sapien et
+                ligula.
+              </p>
+              <br />
+              <p class="card-text">
+                Nunc vel risus commodo viverra. Malesuada fames ac turpis
+                egestas. Congue nisi vitae suscipit tellus mauris a diam
+                maecenas sed. Venenatis urna cursus eget nunc scelerisque
+                viverra. Amet volutpat consequat mauris nunc congue nisi vitae
+                suscipit. Nulla aliquet enim tortor at auctor urna. Sed augue
+                lacus viverra vitae. Neque convallis a cras semper. Ultricies
+                leo integer malesuada nunc. Massa tincidunt nunc pulvinar sapien
+                et. Ullamcorper eget nulla facilisi etiam dignissim diam quis
+                enim. Congue mauris rhoncus aenean vel elit scelerisque mauris.
+                Lacus luctus accumsan tortor posuere ac ut. Odio morbi quis
+                commodo odio. Curabitur vitae nunc sed velit dignissim. Elit
+                duis tristique sollicitudin nibh sit.
+              </p>
+            </div>
+          </article>
+        </div>
       </section>
-      <h2 id="my-projects">My Projects</h2>
-      <section class="add-flex">
-        <article class="marg">
-          <a href="https://something-new-from-group-2.github.io/FloridaMan/"
-            ><img
-              class="brd-white img-center"
-              src="./assets/images/project-1-example.png"
-              alt="Project 1 Example 1"
-              style="height: 192px"
-          /></a>
-        </article>
-        <article class="marg">
-          <a href="https://stephenson36.github.io/WeatherDashboard/"
-            ><img
-              class="brd-white img-center"
-              src="./assets/images/hw-6-example.PNG"
-              alt="HW 1 Example 2"
-              style="height: 192px"
-          /></a>
-        </article>
-        <article class="marg">
-          <a href="https://stephenson36.github.io/HW1_SS/"
-            ><img
-              class="brd-white img-center"
-              src="./assets/images/hw-1-example-1.png"
-              alt="HW 1 Example 3"
-              style="height: 192px"
-          /></a>
-        </article>
-      </section>
-      <section>
+      <section class="card marg-card pv-card">
+        <h2 id="my-projects">My Projects</h2>
+        <section class="add-flex">
+          <article class="marg">
+            <a href="https://something-new-from-group-2.github.io/FloridaMan/"
+              ><img
+                class="img-center shadow p-3 mb-5 bg-body rounded"
+                src="./assets/images/project-1-example.png"
+                alt="Project 1 Example: On This Day"
+                style="height: 192px"
+            /></a>
+          </article>
+          <article class="marg">
+            <a href="https://stephenson36.github.io/WeatherDashboard/"
+              ><img
+                class="img-center shadow p-3 mb-5 bg-body rounded"
+                src="./assets/images/hw-6-example.PNG"
+                alt="HW 6 Example: Weather Dashboard"
+                style="height: 192px"
+            /></a>
+          </article>
+          <article class="marg">
+            <a href="https://atlas-travel.herokuapp.com/"
+              ><img
+                class="img-center shadow p-3 mb-5 bg-body rounded"
+                src="./assets/images/project-2-example.png"
+                alt="Project 2 Example: Atlas Travel App"
+                style="height: 192px"
+            /></a>
+          </article>
+        </section>
+    </section>
+      <section class="card marg-card pv-card">
         <h2 id="contact-me">Contact Me</h2>
         <p>Email - Phone - Linkedin</p>
       </section>
     </main>
-    <footer class="b-0 bgc-body">
+    <footer class="b-0 bgc-body bg-dark text-white">
       <p>2021 My New Website</p>
     </footer>
   </body>

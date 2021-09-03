@@ -1,88 +1,101 @@
-*{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-html{
-    background-image: url('../images/background-6.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100%;
-    background-color:lavender;
+main {
+  background-image: url("../images/background-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
 }
 
-body{
-   margin:5%;
-   min-height: 100vh;
+body {
+  margin: 5%;
+  min-height: 100vh;
 }
 
-main{
-    background-color: rgba(255, 255, 255, 0.75);
+.bg-tran {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 h2 {
-    font-size: 1.5em;
-    padding: 12px 0;
+  font-size: 1.5em;
+  padding: 12px 0;
 }
 
-header{
-    flex-wrap: wrap;
-}
-
-header nav ul {
-    list-style-type: none;
-    margin-top: 7px;
-}
-
-header nav ul li {
-    margin-left: 25px;
-    display: inline;
-}
-
-main section article{
-    flex: 1;
+main section article {
+  flex: 1;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer {
-    text-align: center;
-    padding: 12px 0;
+  text-align: center;
+  padding: 12px 0;
 }
 
 .add-flex {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.bgc-body{background-color:white;}
-.brd-white{border: 6px solid white;}
-.fc-white{color:white;}
-.img-center{
-    display: block;
-    margin: 0 auto;
+.bgc-body {
+  background-color: white;
 }
-.inline{display: inline;}
-.justify{justify-content: center;}
-.marg-left{margin-left: 12px;}
-.pos-f{position: fixed;}
-.pv{padding:12px;}
-.marg{margin:6px;}
-.t-0{top:0;}
-.b-0{bottom:0;}
+.brd-white {
+  border: 6px solid white;
+}
+.fc-white {
+  color: white;
+}
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+.inline {
+  display: inline;
+}
+.justify {
+  justify-content: center;
+}
+.marg-left {
+  margin-left: 12px;
+}
+.pos-f {
+  position: fixed;
+}
+.pv-card {
+  padding: 0px 24px;
+}
+.pv {
+  padding: 48px;
+}
+.marg-card {
+  margin: 24px;
+}
+.marg {
+  margin: 6px;
+}
+.t-0 {
+  top: 0;
+}
+.b-0 {
+  bottom: 0;
+}
 
 @media screen and (min-width: 630px) {
-    header{
-        flex-direction: row;
-    }
-    header nav{
-        float: right;
-        margin-right: 20px;
-    }
-    .add-flex {
-        flex-direction:row;
-    }
+  header {
+    flex-direction: row;
+  }
+  header nav {
+    float: right;
+    margin-right: 20px;
+  }
+  .add-flex {
+    flex-direction: row;
+  }
 }
